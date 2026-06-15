@@ -1,12 +1,12 @@
 
 // card auto
 const courseData = [
-  { id: 'basic',       status: 'open', date: '10 জুন, 2026',  time: '৩টা-৫টা(রবি-মঙ্গল-বৃহ:স), ১টা-৩টা(শনি-সোম-বুধ)' },
-  { id: 'kid',         status: 'open', date: '10 জুন, 2026', time: '৩টা-৫টা(শনি-সোম-বুধ)' },
-  { id: 'graphic',     status: 'open', date: '10 জুন, 2026',  time: '৩টা-৫টা(শনি-সোম-বুধ)' },
-  { id: 'skill-boost',   status: 'open', date: '10 জুন, 2026', time: '৫টা-৭টা(সপ্তাহে ৭ দিন)' },
-  { id: 'ielts', status: 'open', date: '10 জুন, 2026', time: '৫টা-৭টা(শনি-সোম-বুধ)' },
-  { id: 'ict-practice',    status: 'open', date: '10 জুন, 2026', time: '৫টা-৭টা(রবি-মঙ্গল-বৃহ:স)' },
+  { id: 'basic',       status: 'open', date: '30 জুন, 2026',  time: '৩টা-৫টা(রবি-মঙ্গল-বৃহ:স), ১টা-৩টা(শনি-সোম-বুধ)' },
+  { id: 'kid',         status: 'open', date: '30 জুন, 2026', time: '৩টা-৫টা(শনি-সোম-বুধ)' },
+  { id: 'graphic',     status: 'open', date: '30 জুন, 2026',  time: '৩টা-৫টা(শনি-সোম-বুধ)' },
+  { id: 'skill-boost',   status: 'open', date: '30 জুন, 2026', time: '৫টা-৭টা(সপ্তাহে ৭ দিন)' },
+  { id: 'ielts', status: 'open', date: '30 জুন, 2026', time: '৫টা-৭টা(শনি-সোম-বুধ)' },
+  { id: 'ict-practice',    status: 'open', date: '0 জুন, 2026', time: '৫টা-৭টা(রবি-মঙ্গল-বৃহ:স)' },
 ];
 
 const statusLabel = {
@@ -31,7 +31,7 @@ courseData.forEach(course => {
    TICKER DATA —
 ═══════════════════════════════════ */
 const tickerItems = [
-  ' ভর্তি চলছে — 10 জুন, 2026 থেকে নতুন ব্যাচ শুরু',
+  ' ভর্তি চলছে — 30 জুন, 2026 থেকে নতুন ব্যাচ শুরু',
   ' বেসিক কম্পিউটার · গ্রাফিক ডিজাইন · কিডস কম্পিউটার',
   ' যোগাযোগ করুন: 01603-893912',
   ' মুন্সীগঞ্জ পুলিশ সুপার কার্যালয়ের বিপরীত পাশে',
